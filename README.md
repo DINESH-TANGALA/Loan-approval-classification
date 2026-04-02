@@ -5,7 +5,7 @@ A Machine Learning-powered web application that predicts the likelihood of loan 
 ---
 
 ##  Project Overview
-This project aims to help users understand their loan eligibility before a formal bank inquiry. The model is trained on the "USA Loan Approval" dataset and optimized to handle real-world banking constraints, such as high-impact credit defaults and CIBIL score thresholds.
+This project aims to help users understand their loan eligibility before a formal bank inquiry. The model is trained on the "Loan Approval" dataset and optimized to handle real-world banking constraints, such as high-impact credit defaults and CIBIL score thresholds.
 
 ### Key Features:
 * **Predictive Modeling:** Uses a Random Forest Classifier with Hyperparameter Tuning.
