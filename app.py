@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
-with open('loan_approval.pkl','rb') as f:
+import pickle,gzip
+with gzip.open('loan_approval.pkl','rb') as f:
        model=pickle.load(f)
 st.title("Check your Loan Approval Possibility")
 st.info("💡 **Tip:** Check your eligibility here first. This tool provides a prediction without performing a 'Hard Inquiry' on your CIBIL record.")
